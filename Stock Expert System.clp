@@ -4,7 +4,6 @@
 
 ; introduction
 
-
 (defrule introduct
 =>
 (printout t "Hello, I am a stock analyst expert system. Nice to meet you!!" crlf)
@@ -214,4 +213,3 @@ else
    (printout t "Return on Equity: " ?status-roe crlf)
    (printout t "Price: " ?status-price crlf)
 )
-
